@@ -11,7 +11,7 @@ import {
   Search,
   Menu,
   X,
-  Map
+  Map as MapIcon
 } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
@@ -45,7 +45,7 @@ const roleConfig = {
     title: "Espace Candidat",
     links: [
       { href: "/candidat", label: "Ma Candidature", icon: LayoutDashboard },
-      { href: "/candidat/map", label: "Carte Opportunités", icon: Map },
+      { href: "/candidat/map", label: "Carte Opportunités", icon: MapIcon },
       { href: "/candidat/entrainement", label: "Entraînement Vidéo", icon: Users },
       { href: "/candidat/documents", label: "Mes Documents", icon: FileText },
       { href: "/candidat/notifications", label: "Notifications", icon: Bell },
